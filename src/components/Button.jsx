@@ -19,7 +19,7 @@ const Button = () => {
 
       <button
         className="button"
-        onClick={() => window.open("mailto:pritikaminhas@gmail.com")}
+        onClick={() => window.open("mailto:hello@pritikaminhas.com")}
       >
         {email}
       </button>
