@@ -12,15 +12,7 @@ const WorkExperience = () => {
       endDate: "December 2020",
       description:
         "Collaborated with product managers and designers to deliver enhanced web experiences to over 100,000 monthly users.",
-      skills: [
-        "Javascript",
-        "ReactJS",
-        "HTML/CSS",
-        "Java",
-        "JSP",
-        "GWT",
-        "API Development",
-      ],
+      skills: ["Javascript", "ReactJS", "HTML/CSS", "Java", "API Development"],
     },
 
     {
@@ -47,8 +39,9 @@ const WorkExperience = () => {
     <header className="header">
       <h1>Work Experience</h1>
       <div>
-        {jobs.map((job) => (
+        {jobs.map((job, index) => (
           <Work
+            key={job + index}
             company={job.company}
             title={job.title}
             startDate={job.startDate}

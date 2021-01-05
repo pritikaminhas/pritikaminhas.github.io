@@ -11,11 +11,11 @@
   margin-bottom: 10px;
 }
 
-.link {
-  color: #344055;
+.mainLink {
+  color: #ffffff;
 }
   
-.link:hover {
+.mainLink:hover {
   color: #8096ff;
   cursor: pointer;
 }

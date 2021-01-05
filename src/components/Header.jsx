@@ -25,11 +25,11 @@ const Header = () => {
     <div className="subtitle">
       <div className="linkSection">
         check out my{" "}
-        <Link to="/work-experience" className="link">
+        <Link to="/work-experience" className="mainLink">
           previous internships
         </Link>{" "}
         or{" "}
-        <Link to="/volunteer-experience" className="link">
+        <Link to="/volunteer-experience" className="mainLink">
           volunteer & leadership experience
         </Link>
         {"!"}

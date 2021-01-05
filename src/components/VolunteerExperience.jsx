@@ -44,14 +44,15 @@ const VolunteerExperience = () => {
     <header className="header">
       <h1>Volunteer & Leadership Experience</h1>
       <div>
-        {roles.map((job) => (
+        {roles.map((role, index) => (
           <Work
-            company={job.company}
-            title={job.title}
-            startDate={job.startDate}
-            endDate={job.endDate}
-            description={job.description}
-            skills={job.skills}
+            key={role + index}
+            company={role.company}
+            title={role.title}
+            startDate={role.startDate}
+            endDate={role.endDate}
+            description={role.description}
+            skills={role.skills}
           />
         ))}
         <div className="navi">

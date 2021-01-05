@@ -28,22 +28,19 @@ const Work = (props: Props) => {
 
   return (
     <div className="container">
-      <div className="iconCustom">
-        {briefcase} <br />
-        {building} <br />
-        {calendar}
-      </div>
       <div className="text">
-        {title} <br />
-        {company} <br />
-        {startDate} - {endDate}
+        {briefcase} {title} <br />
+        {building} {company} <br />
+        {calendar} {startDate} - {endDate}
       </div>
       <div className="text">
         {description} <br />{" "}
         {skills ? (
           <div className="text">
-            {skills.map((skill) => (
-              <span className="tag">{skill}</span>
+            {skills.map((skill, index) => (
+              <span className="tag" key={"skill" + index}>
+                {skill}
+              </span>
             ))}
           </div>
         ) : null}
