@@ -7,28 +7,28 @@ const WorkExperience = () => {
   const jobs = [
     {
       company: "Morgan Stanley",
-      title: "Software Engineering Co-op",
-      startDate: "September 2020",
-      endDate: "December 2020",
+      title: "Software Engineer",
+      startDate: "09/2020",
+      endDate: "12/2020",
       description:
-        "Collaborated with product managers and designers to deliver enhanced web experiences to over 100,000 monthly users.",
+        "Collaborated with product managers and designers to deliver new features for a webpage accessed over 100,000 times monthly.",
       skills: ["Javascript", "ReactJS", "HTML/CSS", "Java", "API Development"],
     },
 
     {
       company: "Cinchy",
-      title: "Platform Developer Co-op",
-      startDate: "January 2020",
-      endDate: "April 2020",
+      title: "Platform Developer",
+      startDate: "01/2020",
+      endDate: "04/2020",
       description:
-        "Spearheaded the development of a performance benchmarking tool in C++ to provide an quantitative measurement of the platform's capabilities.",
+        "Spearheaded the development of a performance benchmarking tool in C++ to provide a quantitative measurement of the platform's capabilities.",
       skills: ["C++", "C#", "Java"],
     },
     {
       company: "Cinchy",
-      title: "AR Developer Co-op",
-      startDate: "June 2019",
-      endDate: "August 2019",
+      title: "AR Developer",
+      startDate: "06/2019",
+      endDate: "08/2019",
       description:
         "Developed an augmented reality data visualizer capable of processing file and web data for use with the core Cinchy software.",
       skills: ["C#", "Unity 3D", "Augmented Reality Development"],

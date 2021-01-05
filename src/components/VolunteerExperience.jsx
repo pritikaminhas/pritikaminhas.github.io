@@ -6,9 +6,9 @@ import "./Experience.css";
 const VolunteerExperience = () => {
   const roles = [
     {
-      company: "UW Women in Engineering Society",
+      company: "UW Women in Engineering",
       title: "Director",
-      startDate: "November 2020",
+      startDate: "11/2020",
       endDate: "Present",
       description:
         "Promoting equity in engineering, spearheading event planning focused on career development and inclusivity, and working with various departments within the Engineering Faculty to improve retention rate of women in engineering. ",
@@ -16,7 +16,7 @@ const VolunteerExperience = () => {
     {
       company: "UW Engineering Society",
       title: "First Year Mentor",
-      startDate: "September 2019",
+      startDate: "09/2019",
       endDate: "Present",
       description:
         "Mentoring first year Mechatronics Engineering students to help facilitate their transition into post-secondary, provide emotional and academic support, and help them set viable goals.",
@@ -25,7 +25,7 @@ const VolunteerExperience = () => {
     {
       company: "WEEF",
       title: "Class Representative",
-      startDate: "September 2018",
+      startDate: "09/2018",
       endDate: "Present",
       description:
         "Allocating thousands of dollars of funding each semester by analyzing upwards of 450 budget proposals based on importance to the engineering community and ability to fulfill guidelines. ",
@@ -33,8 +33,8 @@ const VolunteerExperience = () => {
     {
       company: "Rewriting the Code",
       title: "Student Leader",
-      startDate: "May 2020",
-      endDate: "August 2020",
+      startDate: "05/2020",
+      endDate: "08/2020",
       description:
         "Worked within a team of three to host over 30 events for 125 students in a manner that strengthens the community and facilitates professional growth.",
     },
