@@ -1,0 +1,33 @@
+
+.iconCustom {
+  margin-right: 10px;
+  justify-content: center;
+}
+
+.text {
+  display: block;
+  text-align: left;
+  min-width: 300px;
+}
+
+.container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+
+.tag {
+  padding: 0.1em 0.4em;
+  border-radius: 0.8em 0.3em;
+  background: transparent;
+  background-image: linear-gradient(
+    to right,
+    rgba(204, 213, 255, 0.1),
+    rgba(204, 213, 255, 0.7) 4%,
+    rgba(204, 213, 255, 0.3)
+  );
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  margin: 10px 10px 0 0;
+  font-size: 17px;
+}

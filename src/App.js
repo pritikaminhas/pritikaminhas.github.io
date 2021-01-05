@@ -1,15 +1,14 @@
+import React from "react";
 import "./App.css";
-import Header from "./components/Header.jsx";
+import Main from "./Components/Main.jsx";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <div>
-          <Header />
-        </div>
-      </header>
-    </div>
+    <React.Fragment>
+      <div className="App">
+        <Main />
+      </div>
+    </React.Fragment>
   );
 }
 
