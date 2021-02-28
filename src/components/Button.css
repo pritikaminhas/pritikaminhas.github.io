@@ -5,7 +5,7 @@
     position: relative;
     border-radius: 100%;
     margin: 15px;
-    border: 2px solid #ffffff;
+    border: 2px solid #1b4332;
 }
 
 .icon {
@@ -18,9 +18,9 @@
     height: 25px;
     display: block;
     background: transparent;
-    color: white
+    color: #1b4332
 }
 
 .button:hover {
-    background-color: #8096ff;
+    background-color: #a3b3ad;
   }

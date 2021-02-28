@@ -1,0 +1,9 @@
+.cardOutline {
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #1b4332;
+    font-size: 18px;
+    width: 40%;
+    padding: 10px;
+}

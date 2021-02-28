@@ -7,6 +7,7 @@ function App() {
     <React.Fragment>
       <div className="App">
         <Main />
+        <div className="footer"> copyright © pritika minhas 2021</div>
       </div>
     </React.Fragment>
   );

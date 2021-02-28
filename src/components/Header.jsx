@@ -1,42 +1,25 @@
 import React from "react";
 import "./Header.css";
 import Button from "./Button";
-import { Link } from "react-router-dom";
 
 const Header = () => {
   const title = <div className="title">pritika minhas</div>;
   const subtitle = (
     <div className="subtitle">
-      third year mechatronics engineering student @ uwaterloo.
+      third year mechatronics engineering @ uwaterloo.
     </div>
   );
 
   const status = (
     <div className="subtitle">
-      previously swe @ morgan stanley.
-      <br />
-      currently searching for summer 2021 internships in software development.
+      currently designing @ develop for good. <br />
+      usually on the hunt for internships in software dev. <br />
     </div>
   );
 
   const links = <Button />;
 
-  const blurb = (
-    <div className="subtitle">
-      <div className="linkSection">
-        check out my{" "}
-        <Link to="/work-experience" className="mainLink">
-          previous internships
-        </Link>{" "}
-        or{" "}
-        <Link to="/volunteer-experience" className="mainLink">
-          volunteer & leadership experience
-        </Link>
-        {"!"}
-      </div>
-      <div className="linkSection"></div>
-    </div>
-  );
+  const wip = "more coming soon.";
 
   return (
     <div>
@@ -44,7 +27,8 @@ const Header = () => {
       {subtitle}
       {status}
       {links}
-      {blurb}
+      <br />
+      {wip}
     </div>
   );
 };
